@@ -1,0 +1,2 @@
+画像をこのフォルダに入れてください。
+必要なファイル名: main.jpg, world.jpg, elfin.jpg, komi.jpg, aya.jpg

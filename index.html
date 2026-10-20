@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="トリッカル・もちもちほっぺ大作戦の魅力を紹介するファンサイトです。">
+  <title>トリッカル！もちもちほっぺ大作戦</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo">もちほっぺ日和</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="メニューを開く" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">ゲーム紹介</a>
+      <a href="#features">魅力</a>
+      <a href="#characters">キャラクター</a>
+      <a href="#links">関連リンク</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO ELYSION!</p>
+        <h1>もちもちほっぺの<br>大冒険！</h1>
+        <p class="hero-text">かわいい仲間たちと一緒に、<br>不思議で楽しい世界を冒険しよう！</p>
+        <a href="#about" class="button">ゲームの魅力を見る ♡</a>
+      </div>
+      <div class="hero-image">
+        <img src="img/main.jpg" alt="トリッカルのメインビジュアル">
+        <span class="floating-heart">♡</span>
+        <span class="floating-star">✦</span>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="section-label">ABOUT THE GAME</p>
+      <h2>トリッカルってどんなゲーム？</h2>
+      <p class="section-description">『トリッカル・もちもちほっぺ大作戦』は、個性豊かなキャラクターたちと冒険する、かわいさとユーモアが魅力のゲームです。</p>
+      <div class="about-grid">
+        <div class="about-image"><img src="img/world.jpg" alt="ゲームの世界観"></div>
+        <div class="about-text">
+          <h3>ようこそ、エーリアスへ！</h3>
+          <p>かわいいキャラクターたち、にぎやかな物語、そして思わず笑ってしまうユニークな世界。あなたのお気に入りの仲間を見つけてみよう！</p>
+          <p class="note">※このサイトは個人制作のファンサイトです。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <p class="section-label">GAME FEATURES</p>
+      <h2>トリッカルの魅力</h2>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">♡</div><h3>もちもちのかわいさ</h3><p>ほっぺをつんつんしたくなる、かわいいキャラクターたち！</p></article>
+        <article class="feature-card"><div class="feature-icon">✦</div><h3>個性豊かな仲間</h3><p>種族も性格もさまざまな仲間たちとの出会いを楽しもう。</p></article>
+        <article class="feature-card"><div class="feature-icon">♪</div><h3>楽しいストーリー</h3><p>ユーモアたっぷりの物語や、にぎやかな世界が待っている！</p></article>
+      </div>
+    </section>
+
+    <section class="section characters" id="characters">
+      <p class="section-label">OUR CHARACTERS</p>
+      <h2>お気に入りのキャラクターは？</h2>
+      <p class="section-description">あなたの好きなキャラクターをクリックしてみよう！</p>
+      <div class="character-grid">
+        <button class="character-card" data-character="エルフィン" aria-pressed="false"><img src="img/elfin.jpg" alt="エルフィン"><h3>エルフィン</h3><p>妖精の女王</p></button>
+        <button class="character-card" data-character="コミー" aria-pressed="false"><img src="img/komi.webp" alt="コミー"><h3>コミー</h3><p>個性豊かな獣人</p></button>
+        <button class="character-card" data-character="マヨ" aria-pressed="false"><img src="img/mayo.webp" alt="マヨ"><h3>マヨ</h3><p>最高の盗品コレクター</p></button>
+      </div>
+      <p class="character-result" id="characterResult" aria-live="polite">キャラクターを選んでね ♡</p>
+    </section>
+
+    <section class="cta" id="links">
+      <p class="section-label">LET'S PLAY!</p>
+      <h2>もっとトリッカルを楽しもう！</h2>
+      <p>公式サイトでゲームの情報をチェック！</p>
+      <a class="button" href="https://trickcal.biligames.com/" target="_blank" rel="noopener noreferrer">公式サイトへ ♡</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="footer-logo">もちほっぺ日和 ♡</a>
+    <p>個人制作のファンサイトです。</p>
+    <p>© 2026 もちほっぺ日和 / Fan site</p>
+    <button id="backToTop" class="back-to-top">↑ TOP</button>
+  </footer>
+</body>
+</html>
